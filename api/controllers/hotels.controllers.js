@@ -1,3 +1,4 @@
+//test commite test
 var mongoose = require('mongoose');
 var Hotel = mongoose.model('Hotel');
 
