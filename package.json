@@ -1,0 +1,32 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "mean stack app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simondemertzis/meanapp.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simondemertzis/meanapp/issues"
+  },
+  "homepage": "https://github.com/simondemertzis/meanapp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.4",
+    "mongoose": "^4.5.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
